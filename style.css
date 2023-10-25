@@ -1,0 +1,45 @@
+
+table,th,td
+{
+    border:1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: chocolate;
+    margin-left: -5px;
+}
+#Submit1
+{
+margin-left:60px;
+margin-bottom: 10px;
+background-color:gray;
+border: 2px solid black;
+border-radius: 4px;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 15px;
+
+}
+#Submit1:hover{
+    background-color: green;
+}
+
+#data
+{
+    width:500px;
+  border: 1px solid black;
+  text-align: center;
+ padding: 10px;
+ background-color: cornflowerblue;
+}
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 100px;
+    text-align: left;
+}
+form{
+    margin-left: 40px;
+    margin-top: 50px;
+}
