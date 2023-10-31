@@ -1,18 +1,8 @@
-
-table,th,td
-{
-    border:1px solid black;
-    text-align: center;
-    border-collapse: collapse;
-    margin-top: 10px;
-    background-color: chocolate;
-    margin-left: -5px;
-}
 #Submit1
 {
 margin-left:60px;
 margin-bottom: 10px;
-background-color:gray;
+/* background-color:gray; */
 border: 2px solid black;
 border-radius: 4px;
 letter-spacing: 1px;
@@ -23,23 +13,50 @@ font-size: 15px;
 #Submit1:hover{
     background-color: green;
 }
-
-#data
-{
-    width:500px;
-  border: 1px solid black;
-  text-align: center;
- padding: 10px;
- background-color: cornflowerblue;
-}
-
 label{
     display: inline-block;
     clear: left;
     width: 100px;
     text-align: left;
+
 }
 form{
-    margin-left: 40px;
-    margin-top: 50px;
+   text-align: center;
+   position: relative;
+   top:20px;
+   width: 800px;
+  padding-top: 20px;
+  margin-left: 120px;
+  font-size: 20px;
+  color: black;
+  background-color:lightblue;
+
+  
+
+}
+#table
+{
+    position: absolute;
+    top:490px;
+    right:0px;
+    background-color:wheat;
+   width:800px;
+}
+table,th,td
+{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body{
+background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2019/05/red-fruit-and-vegetables-on-a-white-background-4.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+overflow:scroll;
+
 }
